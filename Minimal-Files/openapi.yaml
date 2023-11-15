@@ -1,0 +1,25 @@
+openapi: 3.0.2
+info:
+  title: Get a greeting
+  description: |
+    The
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000
+paths:
+  /hello: # <- the path to be called; in our case ChatGPT will call http://localhost:3000/hello
+    get: # <- the HTTP operation to perform on that path
+      summary: ask for a greet
+      description: |  # <- the "|" allowes us to write multiline description fields
+        The rootnode is the center of all concept maps, from there up to four aspects branch. Call this to retrieve a rootnode
+        to continue to work on an idea or project. Ask the user how to proceed, after the information is retrieve
+      operationId: get_greet
+      responses:
+        "200": # <- The HTTP Response Code (200 stands for OK)
+          description: A successful response
+          content:
+            text/plain: # <- we just return a simple string
+              schema:
+                type: string
+      security:
+        - HTTPBearer: []
