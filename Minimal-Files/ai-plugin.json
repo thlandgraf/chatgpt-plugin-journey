@@ -1,6 +1,6 @@
 {
     "schema_version": "v1",
-    "name_for_model": "hello-world",
+    "name_for_model": "helloworld",
     "name_for_human": "HelloPlugin",
     "description_for_model": "This plugin greets the user with the \"Hello World\" message.",
     "description_for_human": "Greetings from the HelloPlugin!",
@@ -13,5 +13,5 @@
     "logo_url": "https://www.shareicon.net/data/128x128/2015/05/31/47175_example_256x256.png",
     "contact_email": "foo@bar.com",
     "legal_info_url": "https://www.example.com"
-  }
+}
   

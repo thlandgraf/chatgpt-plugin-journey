@@ -3,3 +3,7 @@ provides a concise roadmap for developing ChatGPT plugins, illustrated through t
 
 ## Introduction
 ## Part1 The minimal Plugin
+
+```bash
+nest new minimal-plugin
+```
